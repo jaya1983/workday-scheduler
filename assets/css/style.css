@@ -71,6 +71,19 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* footer Styling */
+.footer {
+  padding: 50px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
 /*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
 /* This will be applied on any screen 768px and bellow */
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
